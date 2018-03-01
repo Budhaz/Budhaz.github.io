@@ -1,0 +1,300 @@
+
+
+body {
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	background-color:#e6e6e6;
+	display:flex;
+	display:-webkit-flex;
+	 -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+body p {
+	color:#595959;
+	font-size:14px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+body h1 {
+	color:#595959;
+	font-family: 'Archivo Narrow', sans-serif;
+	
+}
+body h2 {
+	color:#595959;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+body h3 {
+	color:#595959;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+#side {
+	background-color:#ffffff;
+	margin-left:100px;
+	margin-top:20px;
+	width:450px;
+	height:1200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#pic  {
+	background-image:url("Vladimir.jpg");
+	background-size:450px 340px;
+	width:450px;
+	height:340px;
+	overflow:hidden;
+	
+}
+#pic h2 {
+	margin:10px;
+	padding-top:10px;
+	color:#000;
+	
+}
+#work img {
+	padding:10px;
+	
+}
+#work p {
+	float:right;
+	padding-right:347px;
+	
+}
+#home img {
+	padding:10px;
+	
+}
+#home p {
+	float:right;
+	padding-right:317px;
+	
+}
+#mail img {
+	padding:10px;
+	
+}
+#mail p {
+	float:right;
+	padding-right:283px;
+	
+}
+#call img {
+	padding:10px;
+	
+}
+#call p {
+	float:right;
+	padding-right:319px;
+	font-size:14px;
+}
+#skill img {
+	padding:10px;
+	
+}
+#skill p {
+	float:right;
+	padding-right:356px;
+	font-size:16px;
+}
+.progress-one {
+	width:80%;
+	height:15px;
+	border:1px solid #000;
+	border-radius:10px;
+	margin-left:40px;
+}
+.progress-in-one {
+	width:19%;
+	height:15px;
+	background:#000;
+	border-radius:10px;
+	position:absolute;
+}
+.progress-in-one p {
+	color:#fff;
+	z-index:1000;
+	position:absolute;
+	bottom:-15px;
+	left:40%;
+}
+.progress-in-two {
+	width:17%;
+	height:15px;
+	background:#000;
+	border-radius:10px;
+	position:absolute;
+}
+.progress-in-two p {
+	color:#fff;
+	z-index:1000;
+	position:absolute;
+	bottom:-15px;
+	left:40%;
+}
+.progress-in-three {
+	width:16%;
+	height:15px;
+	background:#000;
+	border-radius:10px;
+	position:absolute;
+}
+.progress-in-three p {
+	color:#fff;
+	z-index:1000;
+	position:absolute;
+	bottom:-15px;
+	left:40%;
+}
+.progress-in-four {
+	width:10%;
+	height:15px;
+	background:#000;
+	border-radius:10px;
+	position:absolute;
+}
+.progress-in-four p {
+	color:#fff;
+	z-index:1000;
+	position:absolute;
+	bottom:-15px;
+	left:40%;
+}
+.progress p {
+	margin-left:20px;
+}
+.lang-one {
+	width:80%;
+	height:25px;
+	border:1px solid #000;
+	border-radius:15px;
+	margin-left:40px;
+}
+.lang-in-one {
+	width:19%;
+	height:25px;
+	background:#000;
+	border-radius:15px;
+	position:absolute;
+}
+.lang-in-two {
+	width:17%;
+	height:25px;
+	background:#000;
+	border-radius:15px;
+	position:absolute;
+}
+.lang-in-three {
+	width:6%;
+	height:25px;
+	background:#000;
+	border-radius:15px;
+	position:absolute;
+	
+}
+
+.earth img {
+	margin-left:10px;
+	margin-top:70px;
+}
+.earth p {
+	margin-left:20px;
+	
+}
+#lan {
+	font-size:16px;
+	position:absolute;
+	bottom:-238px;
+	left:9%;
+	overflow:hidden;
+}
+.main {
+	width:57%;
+	height:1190px;
+	position:relative;
+}
+.main-one {
+	background-color:#ffffff;
+	margin-top:20px;
+	width:100%;
+	height:580px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left:30px;
+}
+.main-one img {
+	margin-left:20px;
+	margin-top:40px;
+}
+.main-one h1 {
+	position:absolute;
+	margin-left:80px;
+	top:5%;
+}
+.main-one h3 {
+	margin:60px 0px 0px 30px;
+}
+.main-one p {
+	margin-left:30px;
+	color:#000;
+	font-size:16px;
+}
+.main-two {
+	background-color:#ffffff;
+	width:100%;
+	height:580px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left:30px;
+	margin-top:38px;
+}
+.main-two img {
+	margin-left:20px;
+	margin-top:40px;
+}
+.main-two h1 {
+	position:absolute;
+	margin-left:80px;
+	top:57%;
+}
+.main-two p {
+	margin-left:30px;
+	color:#000;
+	font-size:16px;
+}
+.main-two h3 {
+	margin-left:30px;
+	color:#000;
+	
+}
+.present {
+	margin-top:70px;
+}
+.present h2 {
+	margin-left:30px;
+}
+.present p {
+	margin-left:30px;
+}
+.footer{
+	width:100%;
+	height:135px;
+	background:#000;
+	margin-top:30px;
+	
+}
+.footer img {
+	width:50px;
+	height:50px;
+	margin-left:40%;
+	
+}
+#tube img{
+	width:35px;
+	height:35px;
+	position:absolute;
+	left:18%;
+	margin-top:7px;
+}
+.footer p {
+	text-align:center;
+	color:#fff;
+}
